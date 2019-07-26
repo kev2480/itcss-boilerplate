@@ -1,0 +1,7 @@
+.u-visually-hidden {
+  @include visually-hidden();
+}
+
+.u-width-100 {
+  width: 100%;
+}
