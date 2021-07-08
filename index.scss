@@ -1,16 +1,14 @@
-// Apply a natural box layout model to all elements
-// but allowing components to change
-// http://www.paulirish.com/2012/box-sizing-border-box-ftw/
-
 // Settings
 @import "./settings/colors.scss";
 @import "./settings/fonts.scss";
 @import "./settings/global.scss";
+@import "./settings/animations.scss";
 
 // Tools
 // Globally used mixins and functions.
 @import "tools/visually-hidden";
 @import "tools/font-size";
+@import "tools/animation";
 
 // Generic
 // Reset and/or normalize styles, box-sizing definition, etc.
@@ -21,19 +19,30 @@
 // These have styling from the browser so we can re-define them here.
 @import "elements/page";
 @import "elements/headings";
+@import "elements/pre";
+@import "elements/links";
+@import "elements/inputs";
 
 // Objects
 // Class-based selectors which define undecorated design patterns,
 // eg, media object
 @import "objects/button";
+@import "objects/list";
 
 // Components
 // Specific UI components.
 // This is all our bespoke UI elements
-@import "objects/button";
+@import "./components/ui/button";
+@import "./components/ui/card";
+@import "./components/ui/nav";
 
 // Utilities
 // Utilities and helper classes with the ability to override anything above
 @import "./utilities/spacing.scss";
 @import "./utilities/display.scss";
 @import "./utilities/print.scss";
+@import "./utilities/list.scss";
+@import "./utilities/font.scss";
+@import "./utilities/images.scss";
+@import "./utilities/backgrounds.scss";
+@import "./utilities/animations.scss";

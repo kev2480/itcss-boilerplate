@@ -1,0 +1,35 @@
+.c-button {
+  background-color: $white;
+  border: 3px solid $darkGrey;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  min-width: 190px;
+  text-align: center;
+  color: $darkGrey;
+
+  &:hover, &:focus {
+    background-color: $darkGrey;
+    color: $white;
+  }
+
+  &--primary {
+    background-color: $primary;
+    border-color: $primary-dark;
+    &:hover, &:focus {
+      background-color: $primary-light;
+      color: $darkGrey;
+    }
+  }
+
+  &--warning {
+    background-color: $warning;
+    border-color: $warning-dark;
+    &:hover, &:focus {
+      background-color: $warning-light;
+      color: $darkGrey;
+    }
+  }
+}

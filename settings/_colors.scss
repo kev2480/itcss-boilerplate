@@ -1,15 +1,39 @@
-$green: #A0FF1F !default;
-$pink: #F70087 !default;
+$green: #a0ff1f !default;
 $black: #000000 !default;
-$white: #FFFFFF !default;
-$darkGrey: #5B5B5B !default;
-$midGrey: #C3C3C3 !default;
-$lightGrey: #F8F8F8 !default;
+$white: #ffffff !default;
+$darkGrey: #262626 !default;
+$midGrey: #c3c3c3 !default;
+$lightGrey: #f8f8f8 !default;
+
+
+$cyan: #2FF3E0;
+$gold: #F8D210;
+$pink: #FA26A0;
+$chilli: #F51720;
+
+$primary: $cyan;
+$secondary: $pink;
+$tertiary: $gold;
+$warning: $gold;
+$error: $chilli;
+
+/* SCSS RGB */
+$secondary-light: lighten($secondary, 10%);
+$primary-light: lighten($primary, 10%);
+$tertiary-light: lighten($tertiary, 10%);
+$warning-light: lighten($warning, 10%);
+$error-light: lighten($error, 10%);
+
+$secondary-dark: darken($secondary, 10%);
+$primary-dark: darken($primary, 10%);
+$tertiary-dark: darken($tertiary, 10%);
+$warning-dark: darken($warning, 10%);
+$error-dark: darken($error, 10%);
 
 // RESPONSIVE BREAKPOINTS
-$xs: '350px';
-$sm: '576px';
-$md: '768px';
-$lg: '991px';
-$xl: '1200px';
-$xxl: '1600px';
+$xs: "350px";
+$sm: "576px";
+$md: "768px";
+$lg: "991px";
+$xl: "1200px";
+$xxl: "1600px";
